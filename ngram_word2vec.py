@@ -17,8 +17,6 @@ def build_tree(sentence):
     return tree
 
 def load_word2vec_model():
-    # Load a pre-trained Word2Vec model (e.g., Google News vectors)
-    # Replace 'path/to/word2vec/model' with the actual path to your model
     model = api.load("word2vec-google-news-300")
     return model
 

@@ -1,5 +1,4 @@
 import argparse
-import pandas as pd
 from itertools import permutations
 from collections import defaultdict
 from gensim.models import KeyedVectors
